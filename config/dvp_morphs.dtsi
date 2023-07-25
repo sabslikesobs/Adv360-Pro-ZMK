@@ -1,6 +1,4 @@
-/ {
-  behaviors {
-    dvp_dollar_tilde: dvp_dollar_tilde {
+dvp_dollar_tilde: dvp_dollar_tilde {
     compatible = "zmk,behavior-mod-morph";
     label = "dvp_dollar_tilde";
     #binding-cells = <0>;
@@ -97,6 +95,4 @@ dvp_at_caret: dvp_at_caret {
     #binding-cells = <0>;
     bindings = <&kp AT>, <&kp CARET>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
-};
-  };
 };
