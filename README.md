@@ -8,7 +8,9 @@ It's a single keyboard layout for the Kinesis Advantage 360 (Adv360) that lets y
 - Just Give me the Firmware: Look at the releases, to the right. Look at the support page for full instructions. Summary: mount left module with mod+(1), drag left into the directory; then, mount right module with mod+(3), drag right into directory.
 - Kinesis 360 Pro support page: [see here](https://kinesis-ergo.com/support/kb360pro/)
 
-Instructions: Tap the (1) macro key to cycle through the available layouts:
+## Instructions
+
+Tap the (1) macro key to cycle through the available layouts:
 
 1. qwerty
 2. [colemak](colemak.com)
@@ -21,6 +23,16 @@ And some notes:
 - I don't use Colemak but threw it in there to be helpful. I hope it works right.
 - Change unused keys on the base qwerty layer (e.g. the thumb clusters) to apply those changes to all layouts.
 - Programmer Dvorak (dvp) is based on the way the layout acts on my Linux computer, with the number row keys corrected so that 1 is on the left index finger. Programmer Dvorak changes the shift-behavior of the number row, which I implemented with [ZMK mod-morphs](https://zmk.dev/docs/behaviors/mod-morph) -- `&dvp_` labels in config/dvp_morphs.dtsi. Since the Kinesis web configurator regenerates the keymap every time, I shunted those extra rules into the macros.dtsi file inside of .github/build.yml.
-- I estimated a good symbol layout for dvorak, and kept the bracket keys unchanged from qwerty since they're in a non-standard position already. It looks like this, where blank keys are identical to the default qwerty layout:
+- I estimated a good symbol layout for dvorak, and kept the bracket keys unchanged from qwerty since they're in a non-standard position already.
 
+## Screenshots
+
+Colemak
+![Screenshot_2023-07-24_23-52-10](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/013a2325-04d3-4c9c-b66d-767eedd28308)
+
+Dvorak
 ![Screenshot_2023-07-24_23-48-22](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/c6e0d77f-8694-464f-8fbe-1edac22e5911)
+
+Programmer Dvorak (pink keys are mod-morph combos for e.g. left-parenthesis with 1 on shift)
+![Screenshot_2023-07-24_23-50-48](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/22d6c1fd-43b2-4e89-8531-a25eb69374bb)
+
