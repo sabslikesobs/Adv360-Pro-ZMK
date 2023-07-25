@@ -1,5 +1,7 @@
 # ADV360 Pro ZMK All-in-One Qwerty, Colemak, Dvorak, Programmer Dvorak Layout
 
+It's a single keyboard layout for the Kinesis Advantage 360 (Adv360) that lets you choose between Qwerty, Colemak, Dvorak (dvk), and Programmer Dvorak (dvp).
+
 - Fork it to make your own: [Instructions](https://github.com/KinesisCorporation/Adv360-Pro-ZMK
 ) (fork this repository instead, though)
 - Kinesis's Keymap GUI for your fork: [See here](https://kinesiscorporation.github.io/Adv360-Pro-GUI)
