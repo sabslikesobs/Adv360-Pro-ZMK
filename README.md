@@ -10,7 +10,7 @@ It's a single keyboard layout for the Kinesis Advantage 360 (Adv360) that lets y
 
 ## Instructions
 
-Tap the (1) macro key to cycle through the available layouts:
+After you follow the flashing instructions (see the links above), tap the (1) macro key to cycle through the available layouts:
 
 1. qwerty
 2. [colemak](colemak.com)
