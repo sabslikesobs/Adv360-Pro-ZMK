@@ -15,7 +15,7 @@ Instructions: Tap the (1) macro key to cycle through the available layouts:
 3. dvorak
 4. [programmer dvorak](https://www.kaufmann.no/roland/dvorak/) (I use this)
 
-You can also tap Mod+LCTRL or Mod+Delete to swap LCTRL and Delete. I use that myself.
+You can also tap Mod+LCTRL or Mod+Delete to swap LCTRL and Delete. I use that myself but didn't set it by default to keep the layout vanilla.
 
 I don't use Colemak but threw it in there to be helpful. I hope it works right.
 
