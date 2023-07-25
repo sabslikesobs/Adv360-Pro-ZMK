@@ -77,6 +77,26 @@
             >;
         };
 
+        layer_colemak {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                 &trans         &kp SEMICOLON           &kp COMMA           &kp PERIOD                     &kp P          &kp Y            &trans                                                  &trans             &kp F                      &kp G         &kp C                  &kp R                &kp L    &trans
+                 &trans                 &kp A               &kp O                &kp E                     &kp U          &kp I            &trans  &trans  &trans                  &trans  &trans  &trans             &kp D                      &kp H         &kp T                  &kp N                &kp S        &trans
+                 &trans        &kp APOSTROPHE               &kp Q                &kp J                     &kp K          &kp X                            &trans                  &trans                             &kp B                      &kp M         &kp W                  &kp V                &kp Z           &trans
+                 &trans     &trans              &trans               &trans                    &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                                       &trans        &trans                 &trans        &trans           &trans
+            >;
+        };
+
+        layer_dvorak {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                 &trans         &kp SEMICOLON           &kp COMMA           &kp PERIOD                     &kp P          &kp Y            &trans                                                  &trans             &kp F                      &kp G         &kp C                  &kp R                &kp L    &trans
+                 &trans                 &kp A               &kp O                &kp E                     &kp U          &kp I            &trans  &trans  &trans                  &trans  &trans  &trans             &kp D                      &kp H         &kp T                  &kp N                &kp S        &trans
+                 &trans        &kp APOSTROPHE               &kp Q                &kp J                     &kp K          &kp X                            &trans                  &trans                             &kp B                      &kp M         &kp W                  &kp V                &kp Z           &trans
+                 &trans     &trans              &trans               &trans                    &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                                       &trans        &trans                 &trans        &trans           &trans
+            >;
+        };
+
         layer_dvp {
             bindings = <
  &dvp_ampersand_percent  &dvp_left_bracket_n7  &dvp_left_brace_n5  &dvp_right_brace_n3  &dvp_left_parenthesis_n1  &dvp_equal_n9            &trans                                                  &trans  &dvp_asterisk_n0  &dvp_right_parenthesis_n2  &dvp_plus_n4  &dvp_right_bracket_n6  &dvp_exclamation_n8  &dvp_hash_grave
