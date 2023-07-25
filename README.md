@@ -5,7 +5,7 @@ It's a single keyboard layout for the Kinesis Advantage 360 (Adv360) that lets y
 - Fork it to make your own: [Instructions](https://github.com/KinesisCorporation/Adv360-Pro-ZMK
 ) (fork this repository instead, though)
 - Kinesis's Keymap GUI for your fork: [See here](https://kinesiscorporation.github.io/Adv360-Pro-GUI)
-- Just Give me the Firmware: Look at the releases, to the right.
+- Just Give me the Firmware: Look at the releases, to the right. Look at the support page for full instructions. Summary: mount left module with mod+(1), drag left into the directory; then, mount right module with mod+(3), drag right into directory.
 - Kinesis 360 Pro support page: [see here](https://kinesis-ergo.com/support/kb360pro/)
 
 Instructions: Tap the (1) macro key to cycle through the available layouts:
