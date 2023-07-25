@@ -8,12 +8,12 @@ It's a single keyboard layout for the Kinesis Advantage 360 (Adv360) that lets y
 - Just Give me the Firmware: Look at the releases, to the right.
 - Kinesis 360 Pro support page: [see here](https://kinesis-ergo.com/support/kb360pro/)
 
-Instructions: Tap Mod plus one of the top four keys on the leftmost column of the left module to activate each layout:
+Instructions: Tap the (1) macro key to cycle through the available layouts:
 
-- qwerty (= key)
-- [colemak](colemak.com) (Tab key)
-- dvorak (Esc key)
-- [programmer dvorak](https://www.kaufmann.no/roland/dvorak/) (Shift key) (I use this)
+1. qwerty
+2. [colemak](colemak.com)
+3. dvorak
+4. [programmer dvorak](https://www.kaufmann.no/roland/dvorak/) (I use this)
 
 You can also tap Mod+LCTRL or Mod+Delete to swap LCTRL and Delete. I use that myself.
 
