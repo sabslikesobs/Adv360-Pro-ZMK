@@ -6,5 +6,109 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&dvp_left_parethesis_n1",
+		"name": "&dvp_left_parethesis_n1",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_equal_n9",
+		"name": "&dvp_equal_n9",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_right_brace_n3",
+		"name": "&dvp_right_brace_n3",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_left_brace_n5",
+		"name": "&dvp_left_brace_n5",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_asterisk_n0",
+		"name": "&dvp_asterisk_n0",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_right_parenthesis_n2",
+		"name": "&dvp_right_parenthesis_n2",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_plus_n4",
+		"name": "&dvp_plus_n4",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_right_bracket_n6",
+		"name": "&dvp_right_bracket_n6",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_exclamation_n8",
+		"name": "&dvp_exclamation_n8",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_hash_grave",
+		"name": "&dvp_hash_grave",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_at_caret",
+		"name": "&dvp_at_caret",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_dollar_tilde",
+		"name": "&dvp_dollar_tilde",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&dvp_ampersand_percent",
+		"name": "&dvp_ampersand_percent",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
