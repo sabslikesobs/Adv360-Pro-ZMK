@@ -13,7 +13,7 @@ It's a single keyboard layout for the Kinesis Advantage 360 (Adv360) that lets y
 After you follow the flashing instructions (see the links above), tap the (1) macro key to cycle through the available layouts:
 
 1. qwerty
-2. [colemak](colemak.com)
+2. [colemak](https://colemak.com)
 3. dvorak
 4. [programmer dvorak](https://www.kaufmann.no/roland/dvorak/) (I use this)
 
