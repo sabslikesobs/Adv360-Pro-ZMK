@@ -26,6 +26,8 @@ And some notes:
 - I estimated a good symbol layout for dvorak, and kept the bracket keys unchanged from qwerty since they're in a non-standard position already.
 
 ## Screenshots
+Qwerty
+![Screenshot_2023-07-24_23-56-31](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/fa9b7276-36e9-459d-ba7d-eedc9cb5a10e)
 
 Colemak
 ![Screenshot_2023-07-24_23-52-10](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/013a2325-04d3-4c9c-b66d-767eedd28308)
