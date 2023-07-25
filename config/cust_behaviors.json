@@ -110,5 +110,13 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&dvp_left_parenthesis_n1",
+		"name": "&dvp_left_parenthesis_n1",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
