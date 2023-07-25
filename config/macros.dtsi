@@ -34,102 +34,101 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 }; 
-dollar_tilde: dollar_tilde {
+dvp_dollar_tilde: dvp_dollar_tilde {
     compatible = "zmk,behavior-mod-morph";
-    label = "DOLLAR_TILDE";
+    label = "dvp_dollar_tilde";
     #binding-cells = <0>;
     bindings = <&kp DOLLAR>, <&kp TILDE>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-ampersand_percent: ampersand_percent {
+dvp_ampersand_percent: dvp_ampersand_percent {
     compatible = "zmk,behavior-mod-morph";
-    label = "AMPERSAND_PERCENT";
+    label = "dvp_ampersand_percent";
     #binding-cells = <0>;
     bindings = <&kp AMPERSAND>, <&kp PERCENT>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-left_bracket_n7: left_bracket_n7 {
+dvp_left_bracket_n7: dvp_left_bracket_n7 {
     compatible = "zmk,behavior-mod-morph";
-    label = "LEFT_BRACKET_N7";
+    label = "dvp_left_bracket_n7";
     #binding-cells = <0>;
     bindings = <&kp LEFT_BRACKET>, <&kp N7>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-left_brace_n5: left_brace_n5 {
+dvp_left_brace_n5: dvp_left_brace_n5 {
     compatible = "zmk,behavior-mod-morph";
-    label = "LEFT_BRACE_N5";
+    label = "dvp_left_brace_n5";
     #binding-cells = <0>;
     bindings = <&kp LEFT_BRACE>, <&kp N5>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-right_brace_n3: right_brace_n3 {
+dvp_right_brace_n3: dvp_right_brace_n3 {
     compatible = "zmk,behavior-mod-morph";
-    label = "RIGHT_BRACE_N3";
+    label = "dvp_right_brace_n3";
     #binding-cells = <0>;
     bindings = <&kp RIGHT_BRACE>, <&kp N3>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-left_parenthesis_n1: left_parenthesis_n1 {
+dvp_left_parenthesis_n1: dvp_left_parenthesis_n1 {
     compatible = "zmk,behavior-mod-morph";
-    label = "LEFT_PARENTHESIS_N1";
+    label = "dvp_left_parenthesis_n1";
     #binding-cells = <0>;
     bindings = <&kp LEFT_PARENTHESIS>, <&kp N1>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-equal_n9: equal_n9 {
+dvp_equal_n9: dvp_equal_n9 {
     compatible = "zmk,behavior-mod-morph";
-    label = "EQUAL_N9";
+    label = "dvp_equal_n9";
     #binding-cells = <0>;
     bindings = <&kp EQUAL>, <&kp N9>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-asterisk_n0: asterisk_n0 {
+dvp_asterisk_n0: dvp_asterisk_n0 {
     compatible = "zmk,behavior-mod-morph";
-    label = "ASTERISK_N0";
+    label = "dvp_asterisk_n0";
     #binding-cells = <0>;
     bindings = <&kp ASTERISK>, <&kp N0>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-right_parenthesis_n2: right_parenthesis_n2 {
+dvp_right_parenthesis_n2: dvp_right_parenthesis_n2 {
     compatible = "zmk,behavior-mod-morph";
-    label = "RIGHT_PARENTHESIS_N2";
+    label = "dvp_right_parenthesis_n2";
     #binding-cells = <0>;
     bindings = <&kp RIGHT_PARENTHESIS>, <&kp N2>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-plus_n4: plus_n4 {
+dvp_plus_n4: dvp_plus_n4 {
     compatible = "zmk,behavior-mod-morph";
-    label = "PLUS_N4";
+    label = "dvp_plus_n4";
     #binding-cells = <0>;
     bindings = <&kp PLUS>, <&kp N4>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-right_bracket_n6: right_bracket_n6 {
+dvp_right_bracket_n6: dvp_right_bracket_n6 {
     compatible = "zmk,behavior-mod-morph";
-    label = "RIGHT_BRACKET_N6";
+    label = "dvp_right_bracket_n6";
     #binding-cells = <0>;
     bindings = <&kp RIGHT_BRACKET>, <&kp N6>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-exclamation_n8: exclamation_n8 {
+dvp_exclamation_n8: dvp_exclamation_n8 {
     compatible = "zmk,behavior-mod-morph";
-    label = "EXCLAMATION_N8";
+    label = "dvp_exclamation_n8";
     #binding-cells = <0>;
     bindings = <&kp EXCLAMATION>, <&kp N8>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-hash_grave: hash_grave {
+dvp_hash_grave: dvp_hash_grave {
     compatible = "zmk,behavior-mod-morph";
-    label = "HASH_GRAVE";
+    label = "dvp_hash_grave";
     #binding-cells = <0>;
     bindings = <&kp HASH>, <&kp GRAVE>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-at_caret: at_caret {
+dvp_at_caret: dvp_at_caret {
     compatible = "zmk,behavior-mod-morph";
-    label = "AT_CARET";
+    label = "dvp_at_caret";
     #binding-cells = <0>;
     bindings = <&kp AT>, <&kp CARET>;
     mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-
