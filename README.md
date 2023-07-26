@@ -19,8 +19,8 @@ After you follow the flashing instructions (see the links above), tap the (1) ma
 
 And some notes:
 
-- **Important**: When multiple layers are activated, the one with the highest number takes priority. They are not stacked. Mod and Fn must be kept at the end of the list. 
-- You can also tap Mod+LCTRL or Mod+Delete to swap LCTRL and Delete. I use that myself but didn't set it by default to keep the layout vanilla.
+- **Important**: When multiple layers are activated, the one with the highest number takes priority. They are not stacked. Mod and Fn must be kept at the end of the list. You can create new layers with proper ordering by copying a list item from keymap.json, saving it, then reloading the web configurator.
+- You can also tap Mod+LCTRL or Mod+Delete to swap LCTRL and Delete and put RSHIFT on RCTRL. I use that myself, but didn't set it by default to keep the layout vanilla.
 - I don't use Colemak but threw it in there to be helpful. I hope it works right.
 - Change unused keys on the base qwerty layer (e.g. the thumb clusters) to apply those changes to all layouts.
 - Programmer Dvorak (dvp) is based on the way the layout acts on my Linux computer, with the number row keys corrected so that 1 is on the left index finger. Programmer Dvorak changes the shift-behavior of the number row, which I implemented with [ZMK mod-morphs](https://zmk.dev/docs/behaviors/mod-morph) -- `&dvp_` labels in config/dvp_morphs.dtsi. Since the Kinesis web configurator regenerates the keymap every time, I shunted those extra rules into the macros.dtsi file inside of .github/build.yml.
