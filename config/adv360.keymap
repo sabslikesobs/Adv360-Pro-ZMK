@@ -77,13 +77,13 @@
             >;
         };
 
-        layer_swap_del_ctrl {
+        layer_del_ctrl_shift {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans    &kp DEL  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &kp LCTRL  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans    &kp DEL  &trans                  &trans  &kp RSHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                               &trans                  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &kp LCTRL  &trans                  &trans      &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -111,9 +111,9 @@
             bindings = <
   &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none         &none                  &none  &tog 7   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
+  &none         &none         &none         &none         &none         &none                  &none  &tog 4   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
-  &none         &none         &none         &none         &none                                &none  &tog 7   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+  &none         &none         &none         &none         &none                                &none  &tog 4   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
         };
 
