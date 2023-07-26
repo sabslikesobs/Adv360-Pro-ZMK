@@ -19,6 +19,7 @@ After you follow the flashing instructions (see the links above), tap the (1) ma
 
 And some notes:
 
+- **Important**: When multiple layers are activated, the one with the highest number takes priority. They are not stacked. Mod and Fn must be kept at the end of the list. 
 - You can also tap Mod+LCTRL or Mod+Delete to swap LCTRL and Delete. I use that myself but didn't set it by default to keep the layout vanilla.
 - I don't use Colemak but threw it in there to be helpful. I hope it works right.
 - Change unused keys on the base qwerty layer (e.g. the thumb clusters) to apply those changes to all layouts.
