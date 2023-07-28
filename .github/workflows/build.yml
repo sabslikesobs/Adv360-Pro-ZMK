@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Add DVP custom behaviors
+      - name: Add dvp + wmp custom behaviors
         run: |
-           cat $GITHUB_WORKSPACE/config/dvp_morphs.dtsi | tee -a $GITHUB_WORKSPACE/config/macros.dtsi
+           cat $GITHUB_WORKSPACE/config/extra_morphs.dtsi | tee -a $GITHUB_WORKSPACE/config/macros.dtsi
            cat $GITHUB_WORKSPACE/config/macros.dtsi
       - name: Cache west modules
         uses: actions/cache@v3
