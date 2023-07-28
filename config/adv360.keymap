@@ -89,11 +89,11 @@
 
         layer_workman {
             bindings = <
- &trans  &wmp_exclamation_n1  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans         &trans  &trans
- &trans                &kp Q   &kp D   &kp R   &kp W   &kp B             &to 6                                                  &trans   &kp J   &kp F      &kp U       &kp P  &kp SEMICOLON  &trans
- &trans                &kp A   &kp S   &kp H   &kp T   &kp G            &trans  &trans  &trans                  &trans  &trans  &trans   &kp Y   &kp N      &kp E       &kp O          &kp L  &trans
- &trans                &kp Z   &kp X   &kp M   &kp C   &kp V                            &trans                  &trans                   &kp K   &kp L  &kp COMMA  &kp PERIOD      &kp SLASH  &trans
- &trans               &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans     &trans      &trans         &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans         &trans  &trans
+ &trans   &kp Q   &kp D   &kp R   &kp W   &kp B             &to 6                                                  &trans   &kp J   &kp F      &kp U       &kp P  &kp SEMICOLON  &trans
+ &trans   &kp A   &kp S   &kp H   &kp T   &kp G            &trans  &trans  &trans                  &trans  &trans  &trans   &kp Y   &kp N      &kp E       &kp O          &kp L  &trans
+ &trans   &kp Z   &kp X   &kp M   &kp C   &kp V                            &trans                  &trans                   &kp K   &kp L  &kp COMMA  &kp PERIOD      &kp SLASH  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans     &trans      &trans         &trans  &trans
             >;
         };
 
