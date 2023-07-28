@@ -118,5 +118,13 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&wmp_exclamation_n1",
+		"name": "&wmp_exclamation_n1",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
