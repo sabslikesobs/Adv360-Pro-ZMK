@@ -126,5 +126,101 @@
 			"code"
 		],
 		"type": "UD"
+	},
+	{
+		"code": "&wmp_at_n2",
+		"name": "&wmp_at_n2",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_pound_n3",
+		"name": "&wmp_pound_n3",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_dollar_n4",
+		"name": "&wmp_dollar_n4",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_percent_n5",
+		"name": "&wmp_percent_n5",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_caret_n6",
+		"name": "&wmp_caret_n6",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_ampersand_n7",
+		"name": "&wmp_ampersand_n7",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_asterisk_n8",
+		"name": "&wmp_asterisk_n8",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_left_parenthesis_n9",
+		"name": "&wmp_left_parenthesis_n9",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_right_parenthesis_n0",
+		"name": "&wmp_right_parenthesis_n0",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_left_brace_left_bracket",
+		"name": "&wmp_left_brace_left_bracket",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_right_brace_right_bracket",
+		"name": "&wmp_right_brace_right_bracket",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&wmp_tilde_grave",
+		"name": "&wmp_tilde_grave",
+		"params": [
+			"code"
+		],
+		"type": "UD"
 	}
 ]
