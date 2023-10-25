@@ -56,11 +56,11 @@
 
         layer_fn {
             bindings = <
- &wmp_exclamation_n1  &wmp_exclamation_n1  &wmp_at_n2  &wmp_pound_n3  &wmp_dollar_n4  &wmp_percent_n5            &tog 8                                                  &mo 10  &wmp_caret_n6  &wmp_ampersand_n7  &wmp_asterisk_n8  &wmp_left_parenthesis_n9  &wmp_right_parenthesis_n0  &kp F12
-              &trans               &trans      &trans         &trans          &trans           &trans             &none                                                   &none         &trans             &trans            &trans                    &trans                     &trans   &trans
-              &trans               &trans      &trans         &trans          &trans           &trans             &none  &trans  &trans                  &trans  &trans   &none         &trans             &trans            &trans                    &trans                     &trans   &trans
-              &trans               &trans      &trans         &trans          &trans           &trans                            &trans                  &trans                         &trans             &trans            &trans                    &trans                     &trans   &trans
-              &trans               &trans      &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                            &trans            &trans                    &trans                     &trans   &trans
+ &wmp_exclamation_n1  &wmp_exclamation_n1  &wmp_at_n2  &wmp_pound_n3  &wmp_dollar_n4  &wmp_percent_n5            &tog 8                                                  &mo 10  &wmp_caret_n6  &wmp_ampersand_n7  &wmp_asterisk_n8  &wmp_left_parenthesis_n9  &wmp_right_parenthesis_n0   &none
+              &trans               &trans      &trans         &trans          &trans           &trans             &none                                                   &none         &trans             &trans            &trans                    &trans                     &trans  &trans
+              &trans               &trans      &trans         &trans          &trans           &trans             &none  &trans  &trans                  &trans  &trans   &none         &trans             &trans            &trans                    &trans                     &trans  &trans
+              &trans               &trans      &trans         &trans          &trans           &trans                            &trans                  &trans                         &trans             &trans            &trans                    &trans                     &trans  &trans
+              &trans               &trans      &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                            &trans            &trans                    &trans                     &trans  &trans
             >;
         };
 
