@@ -56,11 +56,11 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 8                                                  &mo 10  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
+ &wmp_exclamation_n1  &wmp_exclamation_n1  &wmp_at_n2  &wmp_pound_n3  &wmp_dollar_n4  &wmp_percent_n5            &tog 8                                                  &mo 10  &wmp_caret_n6  &wmp_ampersand_n7  &wmp_asterisk_n8  &wmp_left_parenthesis_n9  &wmp_right_parenthesis_n0  &kp F12
+              &trans               &trans      &trans         &trans          &trans           &trans             &none                                                   &none         &trans             &trans            &trans                    &trans                     &trans   &trans
+              &trans               &trans      &trans         &trans          &trans           &trans             &none  &trans  &trans                  &trans  &trans   &none         &trans             &trans            &trans                    &trans                     &trans   &trans
+              &trans               &trans      &trans         &trans          &trans           &trans                            &trans                  &trans                         &trans             &trans            &trans                    &trans                     &trans   &trans
+              &trans               &trans      &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                            &trans            &trans                    &trans                     &trans   &trans
             >;
         };
 
