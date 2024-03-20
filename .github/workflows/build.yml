@@ -10,22 +10,13 @@ jobs:
     name: Build
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Get version data
-        id: get_info
-        run: |
-          timestamp=$(date +"%Y%m%d%H%M")
-          commit=$(echo "${{ github.sha }}" | cut -c1-7)
-          file_prefix=$timestamp-$commit
-          branch_name=$(echo "${{ github.ref }}" | awk -F'/' '{print $3}' | cut -c1-4)
-          echo "file_prefix=$file_prefix" >> $GITHUB_OUTPUT
-          bin/get_version.sh $branch_name $commit
+        uses: actions/checkout@v3
       - name: Add dvp + wmp custom behaviors
         run: |
            cat $GITHUB_WORKSPACE/config/extra_morphs.dtsi | tee -a $GITHUB_WORKSPACE/config/macros.dtsi
            cat $GITHUB_WORKSPACE/config/macros.dtsi
       - name: Cache west modules
-        uses: actions/cache@v4
+        uses: actions/cache@v3
         env:
           cache-name: cache-zephyr-modules
         with:
@@ -49,17 +40,17 @@ jobs:
       - name: West Build (left)
         run: west build -s zmk/app -d build/left -b adv360_left -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
       - name: Adv360 Left Kconfig file
-        run: grep -vE '(^#|^$)' build/left/zephyr/.config
+        run: cat build/left/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: West Build (right)
         run: west build -s zmk/app -d build/right -b adv360_right -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
       - name: Adv360 Right Kconfig file
-        run: grep -vE '(^#|^$)' build/right/zephyr/.config
+        run: cat build/right/zephyr/.config | grep -v "^#" | grep -v "^$"
       - name: Rename zmk.uf2
-        run: cp build/left/zephyr/zmk.uf2 ${{ steps.get_info.outputs.file_prefix }}-left.uf2 && cp build/right/zephyr/zmk.uf2 ${{ steps.get_info.outputs.file_prefix }}-right.uf2
+        run: cp build/left/zephyr/zmk.uf2 left.uf2 && cp build/right/zephyr/zmk.uf2 right.uf2
       - name: Archive (Adv360)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: firmware
           path: |
-            ${{ steps.get_info.outputs.file_prefix }}-left.uf2
-            ${{ steps.get_info.outputs.file_prefix }}-right.uf2
+            left.uf2
+            right.uf2
