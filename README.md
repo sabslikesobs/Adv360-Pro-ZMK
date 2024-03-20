@@ -23,10 +23,10 @@ And some notes:
 
 ## Screenshots
 Qwerty
-![Screenshot_2023-07-24_23-56-31](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/fa9b7276-36e9-459d-ba7d-eedc9cb5a10e)
+<img width="1028" alt="image" src="https://github.com/michaelfindlater/Adv360-Pro-ZMK/assets/25244708/a9eadf88-f39b-4e96-b362-88c4968ca77e">
 
 Dvorak
-![Screenshot_2023-07-24_23-48-22](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/c6e0d77f-8694-464f-8fbe-1edac22e5911)
+<img width="1028" alt="image" src="https://github.com/michaelfindlater/Adv360-Pro-ZMK/assets/25244708/79a85bff-5e93-4018-81ac-9cdf23498e1d">
 
 Programmer Dvorak (pink keys are mod-morph combos for e.g. left-parenthesis with 1 on shift)
-![Screenshot_2023-07-24_23-50-48](https://github.com/sabslikesobs/Adv360-Pro-ZMK/assets/57574500/22d6c1fd-43b2-4e89-8531-a25eb69374bb)
+<img width="1033" alt="image" src="https://github.com/michaelfindlater/Adv360-Pro-ZMK/assets/25244708/9dab59b8-9bd2-490a-b78f-4cd20141069a">
