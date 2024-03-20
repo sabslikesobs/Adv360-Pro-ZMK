@@ -12,7 +12,6 @@ west zephyr-export
 cat /app/config/extra_morphs.dtsi | tee -a /app/config/macros.dtsi
 cat /app/config/macros.dtsi
 
-
 # West Build (left)
 west build -s zmk/app -d build/left -b adv360_left -- -DZMK_CONFIG="${PWD}/config"
 
