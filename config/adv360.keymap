@@ -50,11 +50,11 @@
 
         layer_dvp {
             bindings = <
- &dvp_ampersand_percent  &dvp_left_bracket_n7  &dvp_left_brace_n5  &dvp_right_brace_n3  &dvp_left_parenthesis_n1  &dvp_equal_n9             &to 0                                                  &trans  &dvp_asterisk_n0  &dvp_right_parenthesis_n2  &dvp_plus_n4  &dvp_right_bracket_n6  &dvp_exclamation_n8  &dvp_hash_grave
-                 &trans         &kp SEMICOLON           &kp COMMA           &kp PERIOD                     &kp P          &kp Y             &to 0                                                  &trans             &kp F                      &kp G         &kp C                  &kp R                &kp L    &kp BACKSLASH
-                 &trans                 &kp A               &kp O                &kp E                     &kp U          &kp I             &to 1  &trans  &trans                  &trans  &trans  &trans             &kp D                      &kp H         &kp T                  &kp N                &kp S        &kp MINUS
-                 &trans        &kp APOSTROPHE               &kp Q                &kp J                     &kp K          &kp X                            &trans                  &trans                             &kp B                      &kp M         &kp W                  &kp V                &kp Z           &trans
-                    &mo     &dvp_dollar_tilde              &trans               &trans                    &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                                       &trans        &trans              &kp SLASH        &dvp_at_caret           &trans
+ &dvp_ampersand_percent  &dvp_left_bracket_n7  &dvp_left_brace_n5  &dvp_right_brace_n3  &dvp_left_parenthesis_n1  &dvp_equal_n9            &to 0                                                   &none  &dvp_asterisk_n0  &dvp_right_parenthesis_n2  &dvp_plus_n4  &dvp_right_bracket_n6  &dvp_exclamation_n8  &dvp_hash_grave
+                  &none         &kp SEMICOLON           &kp COMMA           &kp PERIOD                     &kp P          &kp Y            &to 0                                                   &none             &kp F                      &kp G         &kp C                  &kp R                &kp L    &kp BACKSLASH
+                  &none                 &kp A               &kp O                &kp E                     &kp U          &kp I            &to 1   &none   &none                   &none   &none   &none             &kp D                      &kp H         &kp T                  &kp N                &kp S        &kp MINUS
+                  &none        &kp APOSTROPHE               &kp Q                &kp J                     &kp K          &kp X                            &none                   &none                             &kp B                      &kp M         &kp W                  &kp V                &kp Z            &none
+                    &mo     &dvp_dollar_tilde               &none                &none                     &none                           &none   &none   &none                   &none   &none   &none                                        &none         &none              &kp SLASH        &dvp_at_caret            &none
             >;
         };
 
