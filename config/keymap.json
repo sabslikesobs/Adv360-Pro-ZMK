@@ -4,8 +4,8 @@
   "layout": "LAYOUT",
   "layer_names": [
     "dvorak",
-    "mod",
-    "Layer #2"
+    "mod_1",
+    "mod_2"
   ],
   "layers": [
     [
@@ -15,17 +15,17 @@
        "&kp LSHFT",  "&kp SEMICOLON",     "&kp Q",      "&kp J",     "&kp K",  "&kp X",                                         "&kp HOME",                     "&kp PG_UP",                               "&kp B",  "&kp M",    "&kp W",    "&kp V",    "&kp Z",     "&kp RSHFT",
            "&mo 1",      "&kp EQUAL",  "&kp CAPS",   "&kp LEFT", "&kp RIGHT",                     "&kp BACKSPACE", "&kp SPACE",  "&kp END",                     "&kp PG_DN", "&kp ENTER",    "&kp SPACE",           "&kp UP", "&kp DOWN", "&kp LBKT", "&kp RBKT",         "&mo 1"
     ], [
-        "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                       "&none",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                 "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",   "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                      "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
-        "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none", "&kp DEL",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
-    ], [
        "&trans", "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5",           "&trans",                                                             "&trans", "&kp F6", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans",  "&trans", "&kp F12",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&trans",  "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans",  "&trans",  "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",  "&trans",  "&trans"
-    ]
+    ], [
+        "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                 "&none",                                                                                       "&none",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",           "&bootloader",                                                                                 "&bootloader",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                 "&none",   "&none",  "&none",                     "&bt BT_CLR",      "&none", "&rgb_ug RGB_MEFS_CMD 5",  "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",        "&none",                                      "&none",                          "&none",                                          "&none",      "&none",      "&none",  "&none",  "&none",  "&none",
+        "&none",        "&none",        "&none",        "&none",        "&none",                                 "&none", "&kp DEL",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",           "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
+    ] 
   ]
 }
