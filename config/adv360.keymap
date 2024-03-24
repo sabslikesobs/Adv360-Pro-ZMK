@@ -41,8 +41,8 @@
         default_layer {
             bindings = <
  &kp GRAVE          &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                    &mo 2                                                               &bl BL_TOG  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &kp SLASH
-   &kp TAB  &kp APOSTROPHE  &kp COMMA  &kp PERIOD      &kp P   &kp Y               &kp K_UNDO                                                             &bt BT_SEL 0   &kp F   &kp G     &kp C     &kp R     &kp L  &kp BACKSLASH
-   &kp ESC           &kp A      &kp O       &kp E      &kp U   &kp I               &kp K_REDO  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL  &bt BT_SEL 1   &kp D   &kp H     &kp T     &kp N     &kp S      &kp MINUS
+   &kp TAB  &kp APOSTROPHE  &kp COMMA  &kp PERIOD      &kp P   &kp Y              &macro_undo                                                             &bt BT_SEL 0   &kp F   &kp G     &kp C     &kp R     &kp L  &kp BACKSLASH
+   &kp ESC           &kp A      &kp O       &kp E      &kp U   &kp I              &macro_redo  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL  &bt BT_SEL 1   &kp D   &kp H     &kp T     &kp N     &kp S      &kp MINUS
  &kp LSHFT   &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                                      &kp HOME                  &kp PG_UP                            &kp B   &kp M     &kp W     &kp V     &kp Z      &kp RSHFT
      &mo 1       &kp EQUAL   &kp CAPS    &kp LEFT  &kp RIGHT                    &kp BACKSPACE  &kp SPACE   &kp END                  &kp PG_DN  &kp ENTER     &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT          &mo 1
             >;
@@ -50,11 +50,11 @@
 
         layer_mod_1 {
             bindings = <
- &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                 &trans                                                  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
- &trans  &trans  &trans  &trans  &trans  &trans             &kp K_COPY                                                  &trans  &trans  &trans  &trans  &trans   &trans  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &kp K_PASTE  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans                                 &trans                  &trans                  &trans  &trans  &trans  &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+ &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &trans                                                  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &trans  &trans  &trans  &trans  &trans  &trans             &macro_copy                                                  &trans  &trans  &trans  &trans  &trans   &trans  &kp F12
+ &trans  &trans  &trans  &trans  &trans  &trans            &macro_paste  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                  &trans                  &trans                  &trans  &trans  &trans  &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
