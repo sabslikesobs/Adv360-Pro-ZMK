@@ -24,7 +24,7 @@ bindings = <&macro_press &kp LGUI>, <&macro_press &kp LSHIFT>, <&macro_tap &kp Z
 };
 macro_save: macro_save{
 compatible = "zmk,behavior-macro";
-
+label = "macro_save";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LGUI>, <&macro_tap &kp S>, <&macro_release &kp LGUI>;
 };

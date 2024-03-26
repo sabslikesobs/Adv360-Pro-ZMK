@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE          &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                    &mo 2                                                              &macro_save  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &kp SLASH
-   &kp TAB  &kp APOSTROPHE  &kp COMMA  &kp PERIOD      &kp P   &kp Y              &macro_undo                                                              &macro_copy   &kp F   &kp G     &kp C     &kp R     &kp L  &kp BACKSLASH
-   &kp ESC           &kp A      &kp O       &kp E      &kp U   &kp I              &macro_redo  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL  &macro_paste   &kp D   &kp H     &kp T     &kp N     &kp S      &kp MINUS
- &kp LSHFT   &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                                      &kp HOME                  &kp PG_UP                            &kp B   &kp M     &kp W     &kp V     &kp Z      &kp RSHFT
-     &mo 1       &kp EQUAL   &kp CAPS    &kp LEFT  &kp RIGHT                    &kp BACKSPACE  &kp SPACE   &kp END                  &kp PG_DN  &kp ENTER     &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT          &mo 1
+ &kp GRAVE          &kp N1     &kp N2      &kp N3     &kp N4  &kp N5                  &mo 2                                                                  &macro_save  &kp N6  &kp N7    &kp N8    &kp N9    &kp N0      &kp SLASH
+   &kp TAB  &kp APOSTROPHE  &kp COMMA  &kp PERIOD      &kp P   &kp Y            &macro_undo                                                                  &macro_copy   &kp F   &kp G     &kp C     &kp R     &kp L  &kp BACKSLASH
+   &kp ESC           &kp A      &kp O       &kp E      &kp U   &kp I            &macro_redo      &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL  &macro_paste   &kp D   &kp H     &kp T     &kp N     &kp S      &kp MINUS
+ &kp LSHFT   &kp SEMICOLON      &kp Q       &kp J      &kp K   &kp X                                        &kp HOME                  &kp PG_UP                            &kp B   &kp M     &kp W     &kp V     &kp Z      &kp RSHFT
+     &mo 1       &kp EQUAL   &kp CAPS    &kp LEFT  &kp RIGHT                      &kp SPACE  &kp BACKSPACE   &kp END                  &kp PG_DN  &kp ENTER     &kp SPACE          &kp UP  &kp DOWN  &kp LBKT  &kp RBKT          &mo 1
             >;
         };
 
