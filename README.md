@@ -1,4 +1,4 @@
-# ADV360 Pro ZMK Dvorak Layout
+# ADV360 Pro
 
 - Fork it to make your own: [Instructions](https://github.com/KinesisCorporation/Adv360-Pro-ZMK
 ) (fork this repository instead, though)
